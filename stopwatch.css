@@ -44,6 +44,19 @@ box-shadow: 0 10px 10px rgba(0,0,0,0.2);
 transition: 0.8s;
 transform: scale(1.25);
 }
+
+@media (max-width: 520px) {
+    .buttons img{
+        width: 60px;
+        margin: 0 20px;
+        cursor: pointer;
+    }
+    
+    .buttons img:nth-child(2){
+        width: 70px;
+    }
+    
+}
 .buttons img:active{
     transition: 0.8s;
     transform: scale(0.9);
